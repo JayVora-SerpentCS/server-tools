@@ -18,10 +18,13 @@ Available addons
 addon | version | summary
 --- | --- | ---
 [account_enterprise_remove](account_enterprise_remove/) | 9.0.1.0.0 | Account - Remove Enterprise Features
+[admin_technical_features](admin_technical_features/) | 9.0.0.1.0 | Checks the technical features box for admin user.
+[auth_session_timeout](auth_session_timeout/) | 9.0.1.0.0 | This module disable all inactive sessions since a given delay
 [auth_signup_verify_email](auth_signup_verify_email/) | 9.0.1.0.0 | Force uninvited users to use a good email for signup
 [auth_supplier](auth_supplier/) | 9.0.2.0.0 | Auth Supplier
 [base_custom_info](base_custom_info/) | 9.0.1.0.0 | Add custom field in models
 [base_export_manager](base_export_manager/) | 9.0.1.1.0 | Manage model export profiles
+[base_external_dbsource](base_external_dbsource/) | 9.0.1.0.0 | External Database Sources
 [base_multi_image](base_multi_image/) | 9.0.1.1.0 | Allow multiple images for database objects
 [base_optional_quick_create](base_optional_quick_create/) | 9.0.1.0.0 | Avoid 'quick create' on m2o fields, on a 'by model' basis
 [base_report_auto_create_qweb](base_report_auto_create_qweb/) | 9.0.1.0.0 | Report qweb auto generation
@@ -37,7 +40,9 @@ addon | version | summary
 [disable_odoo_online](disable_odoo_online/) | 9.0.1.0.0 | Remove odoo.com bindings
 [letsencrypt](letsencrypt/) | 9.0.1.0.0 | Request SSL certificates from letsencrypt.org
 [mail_environment](mail_environment/) | 9.0.1.0.0 | Configure mail servers with server_environment_files
+[mass_editing](mass_editing/) | 9.0.1.0.0 | Mass Editing
 [mass_mailing_enterprise_remove](mass_mailing_enterprise_remove/) | 9.0.1.0.0 | Mass Mailing - Remove Enterprise Features
+[module_prototyper](module_prototyper/) | 9.0.0.1.0 | Prototype your module.
 [project_enterprise_remove](project_enterprise_remove/) | 9.0.1.0.0 | Project - Remove Enterprise Features
 [sale_enterprise_remove](sale_enterprise_remove/) | 9.0.1.0.0 | Sale - Remove Enterprise Features
 [scheduler_error_mailer](scheduler_error_mailer/) | 9.0.1.0.0 | Scheduler Error Mailer
@@ -53,7 +58,6 @@ Unported addons
 ---------------
 addon | version | summary
 --- | --- | ---
-[admin_technical_features](admin_technical_features/) | 8.0.0.1.0 (unported) | Checks the technical features box for admin user.
 [auditlog](auditlog/) | 8.0.1.0.0 (unported) | Audit Log
 [auth_admin_passkey](auth_admin_passkey/) | 8.0.2.1.1 (unported) | Authentification - Admin Passkey
 [auth_dynamic_groups](auth_dynamic_groups/) | 8.0.1.0.0 (unported) | Have membership conditions for certain groups
@@ -61,16 +65,13 @@ addon | version | summary
 [auth_from_http_basic_logout](auth_from_http_basic_logout/) | 1.0 (unported) | Authenticate via HTTP basic authentication (logout helper)
 [auth_from_http_remote_user](auth_from_http_remote_user/) | 8.0.1.0.0 (unported) | Authenticate via HTTP Remote User
 [base_debug4all](base_debug4all/) | 8.0.1.0.0 (unported) | Shows full debug options for all users
-[base_external_dbsource](base_external_dbsource/) | 8.0.1.3.0 (unported) | External Database Sources
 [email_template_template](email_template_template/) | 1.0 (unported) | Templates for email templates
 [fetchmail_attach_from_folder](fetchmail_attach_from_folder/) | 8.0.1.0.1 (unported) | Attach mails in an IMAP folder to existing objects
 [fetchmail_notify_error_to_sender](fetchmail_notify_error_to_sender/) | 8.0.1.0.0 (unported) | If fetching mails gives error, send an email to sender
 [import_odbc](import_odbc/) | 1.3 (unported) | Import data from SQL and ODBC data sources.
-[inactive_session_timeout](inactive_session_timeout/) | 8.0.1.0.0 (unported) | This module disable all inactive sessions since a given delay
 [ir_config_parameter_viewer](ir_config_parameter_viewer/) | 0.1 (unported) | Ir.config_parameter view
 [language_path_mixin](language_path_mixin/) | 8.0.1.0.0 (unported) | Setting the partner's language in RML reports
-[mass_editing](mass_editing/) | 8.0.1.3.0 (unported) | Mass Editing
-[module_prototyper](module_prototyper/) | 8.0.0.3.0 (unported) | Prototype your module.
+[mgmtsystem_kpi](mgmtsystem_kpi/) | 7.0.1.1.1 (unported) | Key Performance Indicator
 [qweb_usertime](qweb_usertime/) | 8.0.1.0.0 (unported) | Add user time rendering support in QWeb
 [security_protector](security_protector/) | 0.1 (unported) | Security protector
 [server_env_base_external_referentials](server_env_base_external_referentials/) | 1.0 (unported) | Server environment for base_external_referential
